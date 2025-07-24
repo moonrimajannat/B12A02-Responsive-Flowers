@@ -19,3 +19,9 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media (max-width: 426px) {
+  .primary-para {
+    font-size: 14px;
+  }
+}

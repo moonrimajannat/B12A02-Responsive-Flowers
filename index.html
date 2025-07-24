@@ -29,15 +29,17 @@
 <body class="inter">
 
     <!-- Navbar Section -->
-    <section class="max-w-[1140px] m-auto">
-        <div class="flex justify-between mt-[30px]">
+    <section class="max-w-[1140px] m-auto px-4">
+        <div class="flex justify-between mt-[30px] items-center">
             <div>
-                <img src="./assets/logo.png" alt="logo">
+                <img class="w-[63px] lg:w-full" src="./assets/logo.png" alt="logo">
             </div>
             <div class="flex gap-[48px] items-center">
-                <a href="/">Home</a>
-                <a href="#">Shop</a>
-                <a href="#">About us</a>
+                <div class="hidden lg:flex gap-[48px] items-center ">
+                    <a href="/">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">About us</a>
+                </div>
                 <div class="flex gap-[10px]">
                     <img src="./assets/shopping-cart.png" alt="shopping-cart">
                     <p>Cart ($56)</p>
@@ -47,12 +49,13 @@
     </section>
 
     <!-- Banner Section-->
-    <section class="max-w-[1140px] m-auto py-[120px]">
-        <div class="flex justify-between items-center">
+    <section class="max-w-[1140px] m-auto py-[120px] px-4">
+        <div class="flex lg:flex-row flex-col-reverse lg:gap-0 gap-[28px] justify-between items-center">
             <div>
-                <h1 class="noto-serif text-[65px] font-bold text-black">ALWAYS <span
+                <h1 class="noto-serif text-[24px] lg:text-[65px] font-bold text-black mb-[13px]">ALWAYS <span
                         class="text-[#E95A08]">FRESH<br>FLOWERS</span></h1>
-                <p class="primary-para max-w-[570px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+                <p class="primary-para max-w-[570px]">Indulge your senses with the beauty and fragrance of our fresh
+                    flower shop. From
                     classic roses to
                     exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
